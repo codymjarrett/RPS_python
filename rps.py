@@ -1,4 +1,4 @@
-import random
+from random import choice
 
 options = ('rock', 'paper', 'scissors')
 
@@ -8,7 +8,7 @@ def get_player_one_option():
 
 
 def get_player_two_option():
-    return random.choice(options)
+    return choice(options)
 
 
 def get_winner(player_one, player_two):
