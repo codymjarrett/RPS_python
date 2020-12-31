@@ -8,8 +8,7 @@ def get_player_one_option():
 
 
 def get_player_two_option():
-    option = random.randint(0, 2)
-    return options[option]
+    return random.choice(options)
 
 
 def get_winner(player_one, player_two):
@@ -80,3 +79,4 @@ def play_game():
 
 
 play_game()
+
